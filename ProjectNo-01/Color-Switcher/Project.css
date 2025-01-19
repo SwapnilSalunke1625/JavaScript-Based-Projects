@@ -59,8 +59,8 @@ h2 span {
     background-color: #808080;
 }
 
-#white {
-    background-color: #ffffff;
+#green {
+    background-color: #00FF00;
     border-color: #ddd;
 }
 
@@ -72,6 +72,9 @@ h2 span {
     background-color: #FFD700;
 }
 
+#Pink {
+    background-color: #FFC0CB;
+}
 /* Button hover effect */
 .button:hover {
     transform: scale(1.2);
