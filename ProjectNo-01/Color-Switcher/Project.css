@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+/* Heading styles */
+h1 {
+    margin-top: 20px;
+    font-size: 3em;
+    color: #444;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #666;
+    font-weight: 300;
+}
+
+h2 span {
+    color: #007BFF;
+    font-weight: bold;
+}
+.colors{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    justify-content: center;
+    
+    margin: 30px 0;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+/* Specific button colors */
+#grey {
+    background-color: #808080;
+}
+
+#white {
+    background-color: #ffffff;
+    border-color: #ddd;
+}
+
+#blue {
+    background-color: #007BFF;
+}
+
+#yellow {
+    background-color: #FFD700;
+}
+
+/* Button hover effect */
+.button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Active button effect */
+.button:active {
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #999;
+}
