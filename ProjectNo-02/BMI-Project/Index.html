@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Project</title>
+    <link rel="stylesheet" href="CalculatorStyle.css">
 </head>
 <body>
+    <div class="container">
+        <h1>BMI calculator</h1>
+        <form>
+            <p><label>Height in CM :</label><input type="text" id="height"></p>
+            <p><label>Width in CM :</label><input type="text" id="width"></p>
+            <button>Calculate</button>
+            <div id="results"></div>
+            <div id="weight-guide">
+                <h3>BMI weight guide</h3>
+                <p>Under weight less than 18.6</p>
+                <p>Normal range 18.6 and 24.9</p>
+                <p>Overweight=greater than 24.9</p>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="Calculator.js"></script>
     
     
 </body>
