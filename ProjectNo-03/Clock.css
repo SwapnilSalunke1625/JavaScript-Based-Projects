@@ -1,0 +1,56 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #e3f2fd, #bbdefb); /* Light blue gradient */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #1e1e1e;
+    text-align: center;
+}
+
+/* Time Display Styling */
+#clock {
+    font-size: 3.5em;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White clock background */
+    color: #1a237e; /* Deep blue text for time */
+    border-radius: 10px;
+    border: 3px solid #1e88e5; /* Light blue border */
+    box-shadow: 0 4px 12px rgba(30, 136, 229, 0.5); /* Blue shadow */
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* Div Below Time */
+.container {
+    padding: 20px 40px;
+    background-color: #f8bbd0; /* Soft pink container background */
+    border: 3px solid #d81b60; /* Deep pink border */
+    color: #3e2723; /* Dark brown text */
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(216, 27, 96, 0.4); /* Pink shadow */
+    font-size: 1.4em;
+    max-width: 90%;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #clock {
+        font-size: 2.8em;
+        padding: 15px;
+    }
+
+    .container {
+        font-size: 1.2em;
+        padding: 15px 25px;
+    }
+}
