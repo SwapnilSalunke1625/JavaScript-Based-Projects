@@ -1,6 +1,7 @@
 let form=document.querySelector("form");
 
 form.addEventListener("submit", function(e){
+    // when we submit form it will go to the server to avoid it we have touse this preverntDefault()
     e.preventDefault();
 
     let height=parseInt(document.querySelector("#height").value)
